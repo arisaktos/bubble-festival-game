@@ -1,0 +1,68 @@
+.bubble {
+    top: 30px;
+    position: relative;
+    -webkit-animation: flying-bubble 2s infinite ease-out;
+    animation: flying-bubble 2s infinite ease-out;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes flying-bubble {
+    0% {
+        top: 30px;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+@keyframes flying-bubble {
+    0% {
+        top: 30px;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+.bubble label {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: #24d1e5;
+    cursor: pointer;
+    display: block;
+}
+
+.bubble label::after {
+    content: '';
+    height: 20px;
+    width: 10px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    background-color: white;
+}
+
+
+/*increase points after bubble is clicked*/
+input:checked {
+    counter-increment: bubble-points; 
+}
+
+/*after bubble is clicked, remove it*/
+.bubble input[type=checkbox]:checked + label {
+    display: none;
+}
+
+/*display points*/
+.mypoints::before {
+    content: counter(bubble-points);
+}

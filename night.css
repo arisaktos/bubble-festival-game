@@ -1,0 +1,875 @@
+.night-sky-scene-wrapper {
+  position: absolute;
+    top: 50%;
+    right: 0;
+    margin: auto;
+    left: 0;
+    transform: translateY(-50%);
+    width: 700px;
+    height: 500px;
+    opacity: 0;
+    -webkit-animation: night-scene 6s 1;
+    animation: night-scene 6s 1;
+    -webkit-animation-delay: 37s;
+    animation-delay: 37s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes night-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+@keyframes night-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+.night-sky div {
+    position: absolute;
+}
+
+.night-sky .moon {
+    width: 200px;
+    height: 200px;
+    opacity: 0.6;
+    border-radius: 50%;
+    background-color: #dadada;
+    top: 30px;
+    left: 60px;
+}
+
+.night-sky .moon-spot {
+    background-color: #adacac;
+    border-radius: 50%;
+}
+
+.night-sky .moon-spot-1 {
+    width: 10px;
+    height: 10px;
+    top: 33px;
+    left: 36px;
+}
+
+.night-sky .moon-spot-2 {
+    width: 20px;
+    height: 20px;
+    top: 49px;
+    left: 56px;
+}
+
+.night-sky .moon-spot-3 {
+    width: 6px;
+    height: 6px;
+    top: 128px;
+    left: 25px;
+}
+
+.night-sky .moon-spot-4 {
+    width: 30px;
+    height: 30px;
+    top: 134px;
+    left: 98px;
+}
+
+.night-sky .moon-spot-5 {
+    width: 6px;
+    height: 6px;
+    top: 50px;
+    left: 150px;
+}
+
+.night-sky {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(1, 20, 84, 1);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 20, 84, 1)), color-stop(100%, rgba(65, 56, 127, 1)));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 20, 84, 1)), to(rgba(65, 56, 127, 1)));
+    background: linear-gradient(to bottom, rgba(1, 20, 84, 1) 0%, rgba(65, 56, 127, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011454', endColorstr='#41387f', GradientType=0);
+}
+
+.mountain {
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    width: 500px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.mountain2 {
+    bottom: -151px;
+    left: -78px;
+}
+
+.mountain3 {
+    bottom: -193px;
+    left: 233px;
+}
+
+.side-decoration {
+    width: 11px;
+    height: 300px;
+    background-color: black;
+    bottom: 0;
+}
+
+.right-side {
+    right: 0;
+}
+
+.tree {
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    bottom: 145px;
+    left: 254px;
+}
+
+.branch {
+    width: 10px;
+    height: 99px;
+    background-color: black;
+}
+
+.branch1 {
+    top: -27px;
+    left: 49px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.branch2 {
+    top: -73px;
+    left: 42px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    width: 21px;
+}
+
+.branch3 {
+    top: -31px;
+    left: -26px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    width: 21px;
+}
+
+.branch4 {
+    top: -74px;
+    left: 34px;
+    height: 61px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+
+}
+
+.night-sky .branch5 {
+    top: -30px;
+    left: 34px;
+    height: 61px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.branch6 {
+    top: 4px;
+    left: 66px;
+    height: 61px;
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+}
+
+.night-sky .branch7 {
+    top: 25px;
+    left: 92px;
+    height: 42px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.night-sky .branch8 {
+    top: 45px;
+    left: 76px;
+    height: 34px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.night-sky .branch9 {
+    top: 45px;
+    left: 64px;
+    height: 18px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.branch10 {
+    top: -15px;
+    left: 64px;
+    width: 6px;
+    height: 18px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.branch11 {
+    top: -93px;
+    left: 33px;
+    height: 47px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.night-sky .branch12 {
+    top: -111px;
+    left: 46px;
+    height: 35px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.night-sky .branch13 {
+    top: -99px;
+    left: 59px;
+    height: 28px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.night-sky .branch14 {
+    top: -84px;
+    left: 55px;
+    width: 8px;
+    height: 19px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.branch15 {
+    top: -50px;
+    left: -14px;
+    width: 15px;
+    height: 68px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.branch16 {
+    top: -15px;
+    left: -48px;
+    width: 15px;
+    height: 95px;
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+}
+
+.night-sky .branch17 {
+    top: 10px;
+    left: -91px;
+    width: 11px;
+    height: 52px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.night-sky .branch18 {
+    top: 41px;
+    left: -78px;
+    width: 11px;
+    height: 37px;
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);
+}
+
+.night-sky .branch19 {
+    top: 42px;
+    left: -63px;
+    width: 11px;
+    height: 25px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.branch20 {
+    top: 0px;
+    left: -63px;
+    width: 7px;
+    height: 25px;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.night-sky .branch21 {
+    top: -82px;
+    left: -18px;
+    width: 12px;
+    height: 57px;
+    -webkit-transform: rotate(155deg);
+    transform: rotate(155deg);
+}
+
+.night-sky .branch22 {
+    top: -89px;
+    left: -7px;
+    width: 9px;
+    height: 48px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.night-sky .branch23 {
+    top: -108px;
+    left: -15px;
+    width: 9px;
+    height: 37px;
+    -webkit-transform: rotate(115deg);
+    transform: rotate(115deg);
+}
+
+.night-sky .branch24 {
+    top: -124px;
+    left: -29px;
+    width: 9px;
+    height: 32px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.night-sky .branch25 {
+    top: -127px;
+    left: -14px;
+    width: 9px;
+    height: 26px;
+    -webkit-transform: rotate(115deg);
+    transform: rotate(115deg);
+}
+
+.night-sky .branch26 {
+    top: -111px;
+    left: -9px;
+    width: 9px;
+    height: 14px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.night-sky .branch27 {
+    top: -54px;
+    left: -68px;
+    width: 13px;
+    height: 49px;
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.night-sky .branch28 {
+    top: -75px;
+    left: -77px;
+    width: 11px;
+    height: 44px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.night-sky .branch29 {
+    top: -75px;
+    left: -56px;
+    width: 10px;
+    height: 29px;
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.night-sky .branch30 {
+    top: -60px;
+    left: -52px;
+    width: 10px;
+    height: 23px;
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+}
+
+.branch31 {
+    top: -59px;
+    left: 87px;
+    width: 7px;
+    height: 23px;
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+}
+
+.night-sky .branch32 {
+    top: 136px;
+    left: 277px;
+    width: 10px;
+    height: 58px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.night-sky .branch33 {
+    top: 126px;
+    left: 304px;
+    width: 10px;
+    height: 39px;
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);
+}
+
+.night-sky .branch34 {
+    top: 146px;
+    left: 316px;
+    width: 10px;
+    height: 28px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.night-sky .branch35 {
+    top: 153px;
+    left: 305px;
+    width: 10px;
+    height: 28px;
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);
+}
+
+.night-sky .branch36 {
+    top: 153px;
+    left: 264px;
+    width: 10px;
+    height: 28px;
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+}
+
+.left-side-deco-1 {
+    -webkit-transform: rotate(-130deg);
+    transform: rotate(-130deg);
+    height: 100px;
+    top: -47px;
+}
+
+.night-sky .grave {
+    background-color: black;
+    width: 53px;
+    height: 80px;
+    top: 302px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    border-radius: 23px;
+    left: 98px;
+}
+
+.night-sky .grave-cross {
+    width: 28px;
+    height: 5px;
+    top: 20px;
+    left: 11px;
+    background-color: #1a1d4d;
+}
+
+.night-sky .grave-cross::before {
+    content: '';
+    width: 28px;
+    height: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 5px;
+    left: 0px;
+    background-color: #1a1d4d;
+    position: absolute;
+}
+
+.night-sky .left-side-deco-2 {
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    height: 52px;
+    top: -36px;
+    left: 47px;
+
+}
+
+.night-sky .left-side-deco-3 {
+    -webkit-transform: rotate(-130deg);
+    transform: rotate(-130deg);
+    height: 44px;
+    top: -6px;
+    left: 47px;
+
+}
+
+.night-sky .left-side-deco-4 {
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+    height: 21px;
+    top: 9px;
+    left: 29px;
+}
+
+.left-side-deco-5 {
+    height: 77px;
+    top: 47px;
+}
+
+.right-side-deco-1 {
+    height: 100px;
+    top: 10px;
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.night-sky .right-side-deco-2 {
+    height: 100px;
+    top: -45px;
+    left: 23px;
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.night-sky .right-side-deco-3 {
+    height: 40px;
+    top: 26px;
+    left: -54px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.night-sky .right-side-deco-4 {
+    height: 30px;
+    top: 53px;
+    left: -57px;
+    -webkit-transform: rotate(125deg);
+    transform: rotate(125deg);
+}
+
+.night-sky .right-side-deco-5 {
+    height: 13px;
+    top: 59px;
+    left: -44px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.night-sky .right-side-deco-6 {
+    height: 12px;
+    top: 59px;
+    left: -43px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.triangle-deco {
+    width: 0;
+    height: 0;
+    left: 300px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 65px solid black;
+    top: 326px;
+}
+
+
+.triangle-deco1 {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid black;
+    top: 341px;
+}
+
+.triangle-deco2 {
+    left: 51px;
+    border-bottom: 45px solid black;
+}
+
+.triangle-deco3 {
+    left: 195px;
+    top: 317px;
+    border-bottom: 45px solid black;
+}
+
+.triangle-deco4 {
+    left: 420px;
+    top: 368px;
+    border-bottom: 45px solid black;
+}
+
+.triangle-deco5 {
+    top: 359px;
+    border-bottom: 65px solid black;
+    left: 596px;
+}
+
+.night-sky .triangle-deco6 {
+    top: 380px;
+    border-bottom: 65px solid black;
+    left: 627px;
+}
+
+.night-sky .spider-web-container {
+    background-color: black;
+    top: -7px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    right: 19px;
+}
+
+.night-sky .spider-web {
+    background-color: black;
+    width: 4px;
+}
+
+.spider-web-left {
+    top: 3px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    height: 22px;
+}
+
+.night-sky .spider-web-middle {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: 16px;
+    height: 22px;
+    top: 12px;
+}
+
+.night-sky .spider-web-right {
+    top: 3px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    height: 22px;
+    left: 31px;
+}
+
+.night-sky .spider-web-2-left {
+    top: -1px;
+    right: 6px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    height: 41px;
+}
+
+.night-sky .spider-web-2-middle {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: 15px;
+    height: 34px;
+    top: 19px;
+}
+
+.night-sky .spider-web-2-right {
+    top: 1px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    height: 38px;
+    left: 41px;
+}
+
+.night-sky .spider-web-3-left {
+    top: -8px;
+    right: 17px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    height: 61px;
+}
+
+.night-sky .spider-web-3-middle {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: 15px;
+    height: 44px;
+    top: 26px;
+}
+
+.night-sky .spider-web-3-right {
+    top: -5px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    height: 58px;
+    left: 52px;
+}
+
+.night-sky .spider-web-divider-1 {
+    top: -26px;
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    left: 9px;
+    height: 76px;
+}
+
+.night-sky .spider-web-divider-2 {
+    top: -20px;
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    right: -28px;
+    height: 71px;
+}
+
+.night-sky .spider-body {
+    background-color: black;
+    height: 15px;
+    width: 25px;
+    top: 99px;
+    border-radius: 50%;
+    left: 643px;
+    -webkit-animation: spider-walk 2s infinite;
+    animation: spider-walk 2s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes spider-walk {
+    0% {
+        top: 99px;
+    }
+    50% {
+        top: 54px;
+    }
+    100% {
+        top: 80px;
+    }
+}
+
+@keyframes spider-walk {
+    0% {
+        top: 99px;
+    }
+    50% {
+        top: 54px;
+    }
+    100% {
+        top: 80px;
+    }
+}
+
+
+.night-sky .spider-eye {
+    background-color: white;
+    height: 3px;
+    width: 3px;
+    left: 9px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.night-sky .spider-eye::after {
+    content: '';
+    background-color: white;
+    height: 3px;
+    width: 3px;
+    left: 7px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.night-sky .spider-line {
+    width: 2px;
+    background-color: black;
+    height: 73px;
+    top: 37px;
+    left: 655px;
+}
+
+.night-sky .spider-legs {
+    background-color: black;
+    width: 3px;
+    height: 10px;
+}
+
+.night-sky .spider-legs-left-1 {
+    top: 10px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    left: 3px;
+}
+
+.night-sky .spider-legs-left-2 {
+    top: 7px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    left: -2px;
+}
+
+.night-sky .spider-legs-right-1 {
+    top: 9px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    left: 23px;
+}
+
+.night-sky .spider-legs-right-2 {
+    top: 4px;
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    left: 26px;
+}
+
+.night-sky .bg-deco {
+    width: 111px;
+    height: 425px;
+    background-color: #3a3274;
+    opacity: 0.25;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.night-sky .bg-deco-1 {
+    left: -47px;
+    top: 250px;
+}
+
+.night-sky .bg-deco-2 {
+    left: 224px;
+    top: 0px;
+}
+
+.night-sky .bg-deco-3 {
+    left: 294px;
+    top: 80px;
+}
+
+.night-sky .bg-deco-4 {
+    left: 464px;
+    top: 51px;
+}
+
+.night-sky .bg-deco-5 {
+    left: 492px;
+    top: 89px;
+}
+
+.night-sky .bg-deco-6 {
+    left: 524px;
+    top: 137px;
+}
+
+.night-sky .bg-deco-7 {
+    left: 253px;
+    top: 123px;
+}
+
+.night-sky .bg-deco-8 {
+    background-color: #1a1d5a;
+    left: 146px;
+    top: 123px;
+}

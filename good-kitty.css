@@ -1,0 +1,427 @@
+.good-cat-scene {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: auto;
+    left: 0;
+    transform: translateY(-50%);
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #181818;
+    opacity: 0;
+    -webkit-animation: good-cat-scene 7s 1;
+    animation: good-cat-scene 7s 1;
+    -webkit-animation-delay: 86s;
+    animation-delay: 86s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes good-cat-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+@keyframes good-cat-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+.good-cat-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    border-radius: 50%;
+}
+
+.good-cat-body {
+    -webkit-transform: translateX(-350px);
+    transform: translateX(-350px);
+    -webkit-animation: cat-slide-in 1s 1;
+    animation: cat-slide-in 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 86s;
+    animation-delay: 86s;
+    background-color: #ddc108;
+    width: 120px;
+    height: 180px;
+    top: 171px;
+    left: 82px;
+}
+
+.good-cat-scene .cat-body-mid {
+    background-color: #f4eaaa;
+}
+
+.good-cat-scene .cat-head {
+    background-color: #ddc108;
+}
+
+.good-cat-scene .cat-head-mid {
+    background-color: #f4eaaa;
+    border: 7px solid #ddc108;
+}
+
+.good-cat-scene .cat-ear {
+    border-bottom: 35px solid #ddc108;
+}
+
+.good-cat-scene .cat-ear-left {
+    top: -5px;
+}
+
+.good-cat-scene .cat-ear-mid {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid #f4eaaa;
+}
+
+.good-cat-scene .cat-ear-left-mid {
+    top: 14px;
+    left: -10px;
+}
+
+.good-cat-scene .cat-ear-right-mid {
+    top: 14px;
+    left: -10px;
+}
+
+.good-cat-scene .cat-ear-right {
+    top: -5px;
+}
+
+.good-cat-scene .cat-cheek {
+    border-bottom: 25px solid #ddc108;
+}
+
+.good-cat-scene .cat-cheek-mid {
+    border-bottom: 25px solid #f4eaaa;
+}
+
+.good-cat-scene .cat-eye {
+    width: 30px;
+    height: 35px;
+    top: 43px;
+}
+
+.good-cat-scene .cat-eye-left {
+    left: 39px;
+}
+
+.good-cat-scene .cat-eye-left::before {
+    content: '';
+    width: 10px;
+    height: 3px;
+    position: absolute;
+    top: 8px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    left: -11px;
+    background-color: #252525;
+}
+
+.good-cat-scene .cat-eye-left::after {
+    content: '';
+    width: 10px;
+    height: 3px;
+    position: absolute;
+    top: 1px;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    left: -8px;
+    background-color: #252525;
+}
+
+.good-cat-scene .cat-eye-right {
+    left: 79px;
+}
+
+.good-cat-scene .cat-face-star {
+    display: block;
+    color: #ddc108;
+    z-index: 120;
+    top: -49px;
+    width: 0px;
+    left: 32px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #ddc108;
+    border-left: 15px solid transparent;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.good-cat-scene .cat-face-star::before {
+    border-bottom: 15px solid #ddc108;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -8px;
+    left: -10px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.good-cat-scene .cat-face-star::after {
+    position: absolute;
+    display: block;
+    color: #ddc108;
+    top: 0px;
+    left: -16px;
+    width: 0px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #ddc108;
+    border-left: 15px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    content: '';
+}
+
+.good-cat-scene .cat-eye-right::before {
+    content: '';
+    width: 10px;
+    height: 3px;
+    position: absolute;
+    top: 8px;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    left: 31px;
+    background-color: #252525;
+}
+
+.good-cat-scene .cat-eye-right::after {
+    content: '';
+    width: 10px;
+    height: 3px;
+    position: absolute;
+    top: 1px;
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    left: 27px;
+    background-color: #252525;
+}
+
+.good-cat-scene .cat-eye-left-dot-1 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    top: 6px;
+    left: 6px;
+    border-radius: 50%;
+}
+
+.good-cat-scene .cat-eye-left-dot-2 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    top: 13px;
+    left: 14px;
+    border-radius: 50%;
+}
+
+.good-cat-scene .cat-paw {
+    background-color: #ddc108;
+}
+
+.good-cat-scene .cat-paw-point-main {
+    background-color: #f4eaaa;
+}
+
+.good-cat-scene .cat-whisk {
+    width: 50px;
+}
+
+.good-cat-scene .cat-whisk-1 {
+    top: 75px;
+    left: -18px;
+}
+
+.good-cat-scene .cat-whisk-2 {
+    top: 89px;
+    left: -20px;
+}
+
+.good-cat-scene .cat-whisk-3 {
+    top: 75px;
+}
+
+.good-cat-scene .cat-whisk-4 {
+    top: 89px;
+}
+
+.good-cat-scene .cat-hair {
+    border-top: 25px solid #ddc108;
+}
+
+.good-cat-scene .cat-hair-2 {
+    border-top: 15px solid #ddc108;
+}
+
+.good-cat-scene .cat-tail {
+    border: solid 14px #ddc108;
+    border-color: transparent transparent transparent #ddc108;
+}
+
+.good-cat-scene .cat-tail-star {
+    display: block;
+    color: #ddc108;
+    z-index: 120;
+    top: 71px;
+    width: 0px;
+    left: 178px;
+    height: 0px;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid #ddc108;
+    border-left: 35px solid transparent;
+    -webkit-transform: rotate(55deg);
+    transform: rotate(55deg);
+}
+
+.good-cat-scene .cat-tail-star::before {
+    border-bottom: 20px solid #ddc108;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -15px;
+    left: -20px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.good-cat-scene .cat-tail-star::after {
+    position: absolute;
+    display: block;
+    color: #ddc108;
+    top: 0px;
+    left: -36px;
+    width: 0px;
+    height: 0px;
+    border-right: 35px solid transparent;
+    border-bottom: 20px solid #ddc108;
+    border-left: 35px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    content: '';
+}
+
+.good-cat-scene .cat-body-stripe {
+    background-color: #ddc108;
+    width: 6px;
+    height: 100px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.good-cat-scene .cat-body-stripe-1 {
+    top: 80px;
+    left: 31px;
+}
+
+.good-cat-scene .cat-body-stripe-2 {
+    top: 61px;
+    left: 32px;
+}
+
+.good-cat-scene .cat-body-stripe-3 {
+    top: 81px;
+    left: 56px;
+}
+
+.good-cat-scene .star-pulsing {
+    top: 30px;
+    -webkit-animation: star-pulse 1s infinite;
+    animation: star-pulse 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes star-pulse {
+    0% {
+        -webkit-transform: scale(1) rotate(35deg);
+        transform: scale(1) rotate(35deg);
+    }
+    50% {
+        -webkit-transform: scale(1.5) rotate(35deg);
+        transform: scale(1.5) rotate(35deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotate(35deg);
+        transform: scale(1) rotate(35deg);
+    }
+}
+
+@keyframes star-pulse {
+    0% {
+        -webkit-transform: scale(1) rotate(35deg);
+        transform: scale(1) rotate(35deg);
+    }
+    50% {
+        -webkit-transform: scale(1.5) rotate(35deg);
+        transform: scale(1.5) rotate(35deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotate(35deg);
+        transform: scale(1) rotate(35deg);
+    }
+}
+
+.good-cat-scene .star-pulsing-2 {
+    left: 231px;
+    top: 73px;
+}
+
+.good-cat-scene .good-cat-copy {
+    background-color: #f4eaaa;
+    height: 195px;
+    top: -23px;
+    color: #252525;
+    border: 2px solid white;
+}
+
+.good-cat-scene .good-cat-copy-arrow {
+    border-left: 60px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid white;
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    top: 132px;
+    left: 241px;
+}
+
+.good-cat-scene .good-cat-copy-container {
+    -webkit-animation: evil-cat-copy-appears 1s 1;
+    animation: evil-cat-copy-appears 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 87s;
+    animation-delay: 87s;
+    opacity: 0;
+}

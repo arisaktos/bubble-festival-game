@@ -1,0 +1,172 @@
+.beaten-kitty-scene {
+      position: absolute;
+    top: 50%;
+    right: 0;
+    margin: auto;
+    left: 0;
+    transform: translateY(-50%);
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #181818;
+    opacity: 0;
+    -webkit-animation: beaten-cat-scene 6s 1;
+    animation: beaten-cat-scene 6s 1;
+    -webkit-animation-delay: 102s;
+    animation-delay: 102s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes beaten-cat-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+@keyframes beaten-cat-scene {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    20%,
+    99% {
+        opacity: 1;
+    }
+}
+
+.beaten-kitty-scene .cat-container {
+    position: relative;
+    width: 100%;
+    left: 100px;
+    top: 100px;
+}
+
+.beaten-kitty-scene .beaten-cat-body {
+    background-color: #680968;
+    width: 120px;
+    height: 180px;
+    top: 123px;
+    left: -22px;
+    -webkit-transform: translateX(-350px);
+    transform: translateX(-350px);
+    -webkit-animation: cat-slide-in 1s 1;
+    animation: cat-slide-in 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 103s;
+    animation-delay: 103s;
+}
+
+.beaten-kitty-scene .cat-paw-left-hurt {
+    left: 14px;
+    top: 68px;
+    -webkit-transform: rotate(-250deg);
+    transform: rotate(-250deg);
+    z-index: 200;
+}
+
+.beaten-kitty-scene .cat-bandage-1 {
+    border-left: 110px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid #fff;
+    top: -4px;
+    -webkit-transform: rotate(37deg);
+    transform: rotate(37deg);
+    left: -78px;
+}
+
+.beaten-kitty-scene .cat-eye-beaten {
+    border: 4px solid #ac62ae;
+}
+
+.beaten-kitty-scene .cat-tail-beaten {
+    top: 128px;
+    height: 45px;
+    left: 114px;
+    -webkit-transform: rotate(125deg);
+    transform: rotate(125deg);
+}
+
+.beaten-kitty-scene .cat-tail-beaten-arrow {
+    top: 135px;
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+}
+
+.beaten-kitty-scene .cat-tail-bandage {
+    background-color: white;
+    width: 16px;
+    height: 9px;
+    top: 122px;
+    border: 1px solid black;
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+    left: 190px;
+}
+
+.beaten-kitty-scene .c-t-b-2 {
+    left: 181px;
+    top: 117px;
+}
+
+.beaten-kitty-scene .cat-head-bandage {
+    background-color: white;
+    width: 45px;
+    height: 20px;
+    z-index: 101;
+    top: 19px;
+    border: 1px solid black;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    left: 92px;
+}
+
+.beaten-kitty-scene .cat-ear-bandage {
+    background-color: white;
+    width: 45px;
+    height: 20px;
+    z-index: 101;
+    top: 19px;
+    border: 1px solid black;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    left: 92px;
+}
+
+.beaten-kitty-scene .beaten-cat-copy {
+    height: 132px;
+    top: -23px;
+    left: 183px;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.beaten-kitty-scene .beaten-cat-copy-arrow {
+    border-left: 60px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid white;
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    top: 91px;
+    left: 142px;
+}
+
+.beaten-kitty-scene .beaten-cat-copy-container {
+    -webkit-animation: evil-cat-copy-appears 1s 1;
+    animation: evil-cat-copy-appears 1s 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 104s;
+    animation-delay: 104s;
+    opacity: 0;
+}
