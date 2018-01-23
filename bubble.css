@@ -58,7 +58,7 @@ input:checked {
 }
 
 /*after bubble is clicked, remove it*/
-.bubble input[type=checkbox]:checked + label {
+.bubble input:checked + label {
     display: none;
 }
 
