@@ -12,11 +12,12 @@
 }
 
 .kapow-scene-wrapper {
-     position: absolute;
+    position: absolute;
     top: 50%;
     right: 0;
     margin: auto;
     left: 0;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 700px;
     height: 500px;

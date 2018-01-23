@@ -176,7 +176,7 @@
 }
 
 .cat-mouth {
-    
+
     border: solid 4px #252525;
     border-color: transparent transparent #252525 transparent;
     background-color: transparent;
@@ -189,12 +189,12 @@
 }
 
 .cat-mouth-left {
-      left: 31px;
+    left: 31px;
 
 }
 
 .cat-mouth-right {
-     left: 63px;
+    left: 63px;
 }
 
 .cat-tooth {
@@ -207,11 +207,11 @@
 }
 
 .cat-tooth-left {
-      top: 159px;
+    top: 159px;
 }
 
 .cat-tooth-right {
- top: 159px;
+    top: 159px;
     left: 50px;
 }
 
@@ -488,4 +488,3 @@
         opacity: 1;
     }
 }
-

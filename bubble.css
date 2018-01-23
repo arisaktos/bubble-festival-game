@@ -54,7 +54,7 @@
 
 /*increase points after bubble is clicked*/
 input:checked {
-    counter-increment: bubble-points; 
+    counter-increment: bubble-points;
 }
 
 /*after bubble is clicked, remove it*/
